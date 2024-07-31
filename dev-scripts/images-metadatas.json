@@ -1,0 +1,27 @@
+{
+    "image1.jpg": {
+      "Title": "New Title",
+      "Author": "New Author",
+      "Description": "New Description",
+      "Keywords": "Keyword1, Keyword2",
+      "Location": "New Location",
+      "CreateDate": "2024:01:01 12:00:00",
+      "ModifyDate": "2024:01:02 12:00:00",
+      "GPSLatitude": "37.7749 N",
+      "GPSLongitude": "122.4194 W",
+      "GPSPosition": "37.7749 N 122.4194 W"
+    },
+    "image2.png": {
+      "Title": "",
+      "Author": "",
+      "Description": "",
+      "Keywords": "",
+      "Location": "",
+      "CreateDate": "",
+      "ModifyDate": "",
+      "GPSLatitude": "",
+      "GPSLongitude": "",
+      "GPSPosition": ""
+    }
+}
+  

@@ -1,0 +1,39 @@
+{
+  "name": "static-webdev-toolkit",
+  "version": "1.0.0",
+  "description": "starter the project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "node dev-scripts/incrementVersion.js",
+    "prebuild:major": "node dev-scripts/incrementVersion.js --major",
+    "prebuild:minor": "node dev-scripts/incrementVersion.js --minor",
+    "serve:prod": "node dev-scripts/serveVersion.js",
+    "commit": "node dev-scripts/commit.js",
+    "create-branch": "node dev-scripts/create-branch.js",
+    "merge": "node dev-scripts/merge.js",
+    "optimize-images": "node dev-scripts/optimize-images.js",
+    "pagespeed": "node dev-scripts/page-insights.js",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "exiftool-vendored": "^26.2.0",
+    "http-server": "^14.1.1",
+    "openai": "^4.48.2",
+    "postcss": "^8.4.38",
+    "psi": "^4.1.0",
+    "sharp": "^0.33.4",
+    "simple-git": "^3.24.0",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.11"
+  },
+  "dependencies": {
+    "alpinejs": "^3.14.0"
+  }
+}
