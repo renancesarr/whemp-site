@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+# Vite
+dist/
+build/
+.vite/
+.vite_cache/
+
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Tailwind CSS
+public/css/tailwind.css
+
+
+# Production build
+/releases/
+
+# variáveis de ambiente
+
+.env.local
+.env
